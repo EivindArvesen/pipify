@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833F63B7290479A800463E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63B6290479A800463E4E /* AppDelegate.swift */; };
+		833F63BB290479A800463E4E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 833F63B9290479A800463E4E /* Main.html */; };
+		833F63BD290479A800463E4E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 833F63BC290479A800463E4E /* Icon.png */; };
+		833F63BF290479A800463E4E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 833F63BE290479A800463E4E /* Style.css */; };
+		833F63C1290479A800463E4E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 833F63C0290479A800463E4E /* Script.js */; };
+		833F63C3290479A800463E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63C2290479A800463E4E /* ViewController.swift */; };
+		833F63C6290479A800463E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833F63C4290479A800463E4E /* Main.storyboard */; };
+		833F63C8290479AD00463E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833F63C7290479AD00463E4E /* Assets.xcassets */; };
+		833F63D4290479AD00463E4E /* PiPiFyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63D3290479AD00463E4E /* PiPiFyTests.swift */; };
+		833F63DE290479AD00463E4E /* PiPiFyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63DD290479AD00463E4E /* PiPiFyUITests.swift */; };
+		833F63E0290479AD00463E4E /* PiPiFyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63DF290479AD00463E4E /* PiPiFyUITestsLaunchTests.swift */; };
+		833F63E6290479AD00463E4E /* PiPiFy Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 833F63E5290479AD00463E4E /* PiPiFy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		833F63EB290479AD00463E4E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F63EA290479AD00463E4E /* SafariWebExtensionHandler.swift */; };
+		833F63EE290479AD00463E4E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 833F63ED290479AD00463E4E /* _locales */; };
+		833F63F0290479AD00463E4E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 833F63EF290479AD00463E4E /* images */; };
+		833F63F2290479AD00463E4E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 833F63F1290479AD00463E4E /* manifest.json */; };
+		833F63F4290479AD00463E4E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 833F63F3290479AD00463E4E /* background.js */; };
+		833F63F6290479AD00463E4E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 833F63F5290479AD00463E4E /* content.js */; };
+		833F63F8290479AD00463E4E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 833F63F7290479AD00463E4E /* popup.html */; };
+		833F63FA290479AD00463E4E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 833F63F9290479AD00463E4E /* popup.css */; };
+		833F63FC290479AD00463E4E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 833F63FB290479AD00463E4E /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833F63D0290479AD00463E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833F63AB290479A800463E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833F63B2290479A800463E4E;
+			remoteInfo = PiPiFy;
+		};
+		833F63DA290479AD00463E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833F63AB290479A800463E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833F63B2290479A800463E4E;
+			remoteInfo = PiPiFy;
+		};
+		833F63E7290479AD00463E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833F63AB290479A800463E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833F63E4290479AD00463E4E;
+			remoteInfo = "PiPiFy Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		833F6404290479AD00463E4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				833F63E6290479AD00463E4E /* PiPiFy Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		833F63B3290479A800463E4E /* PiPiFy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPiFy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833F63B6290479A800463E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833F63BA290479A800463E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		833F63BC290479A800463E4E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		833F63BE290479A800463E4E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		833F63C0290479A800463E4E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		833F63C2290479A800463E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		833F63C5290479A800463E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833F63C7290479AD00463E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833F63C9290479AD00463E4E /* PiPiFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiPiFy.entitlements; sourceTree = "<group>"; };
+		833F63CA290479AD00463E4E /* PiPiFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiPiFy.entitlements; sourceTree = "<group>"; };
+		833F63CF290479AD00463E4E /* PiPiFyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPiFyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833F63D3290479AD00463E4E /* PiPiFyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPiFyTests.swift; sourceTree = "<group>"; };
+		833F63D9290479AD00463E4E /* PiPiFyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPiFyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833F63DD290479AD00463E4E /* PiPiFyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPiFyUITests.swift; sourceTree = "<group>"; };
+		833F63DF290479AD00463E4E /* PiPiFyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPiFyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		833F63E5290479AD00463E4E /* PiPiFy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PiPiFy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		833F63EA290479AD00463E4E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		833F63ED290479AD00463E4E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		833F63EF290479AD00463E4E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		833F63F1290479AD00463E4E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		833F63F3290479AD00463E4E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		833F63F5290479AD00463E4E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		833F63F7290479AD00463E4E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		833F63F9290479AD00463E4E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		833F63FB290479AD00463E4E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		833F63FD290479AD00463E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833F63FE290479AD00463E4E /* PiPiFy_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiPiFy_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833F63B0290479A800463E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63CC290479AD00463E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63D6290479AD00463E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63E2290479AD00463E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833F63AA290479A800463E4E = {
+			isa = PBXGroup;
+			children = (
+				833F63B5290479A800463E4E /* PiPiFy */,
+				833F63D2290479AD00463E4E /* PiPiFyTests */,
+				833F63DC290479AD00463E4E /* PiPiFyUITests */,
+				833F63E9290479AD00463E4E /* PiPiFy Extension */,
+				833F63B4290479A800463E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833F63B4290479A800463E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833F63B3290479A800463E4E /* PiPiFy.app */,
+				833F63CF290479AD00463E4E /* PiPiFyTests.xctest */,
+				833F63D9290479AD00463E4E /* PiPiFyUITests.xctest */,
+				833F63E5290479AD00463E4E /* PiPiFy Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833F63B5290479A800463E4E /* PiPiFy */ = {
+			isa = PBXGroup;
+			children = (
+				833F63B6290479A800463E4E /* AppDelegate.swift */,
+				833F63C2290479A800463E4E /* ViewController.swift */,
+				833F63C4290479A800463E4E /* Main.storyboard */,
+				833F63C7290479AD00463E4E /* Assets.xcassets */,
+				833F63C9290479AD00463E4E /* PiPiFy.entitlements */,
+				833F63CA290479AD00463E4E /* PiPiFy.entitlements */,
+				833F63B8290479A800463E4E /* Resources */,
+			);
+			path = PiPiFy;
+			sourceTree = "<group>";
+		};
+		833F63B8290479A800463E4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				833F63B9290479A800463E4E /* Main.html */,
+				833F63BC290479A800463E4E /* Icon.png */,
+				833F63BE290479A800463E4E /* Style.css */,
+				833F63C0290479A800463E4E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		833F63D2290479AD00463E4E /* PiPiFyTests */ = {
+			isa = PBXGroup;
+			children = (
+				833F63D3290479AD00463E4E /* PiPiFyTests.swift */,
+			);
+			path = PiPiFyTests;
+			sourceTree = "<group>";
+		};
+		833F63DC290479AD00463E4E /* PiPiFyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833F63DD290479AD00463E4E /* PiPiFyUITests.swift */,
+				833F63DF290479AD00463E4E /* PiPiFyUITestsLaunchTests.swift */,
+			);
+			path = PiPiFyUITests;
+			sourceTree = "<group>";
+		};
+		833F63E9290479AD00463E4E /* PiPiFy Extension */ = {
+			isa = PBXGroup;
+			children = (
+				833F63EA290479AD00463E4E /* SafariWebExtensionHandler.swift */,
+				833F63FD290479AD00463E4E /* Info.plist */,
+				833F63FE290479AD00463E4E /* PiPiFy_Extension.entitlements */,
+				833F63EC290479AD00463E4E /* Resources */,
+			);
+			path = "PiPiFy Extension";
+			sourceTree = "<group>";
+		};
+		833F63EC290479AD00463E4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				833F63ED290479AD00463E4E /* _locales */,
+				833F63EF290479AD00463E4E /* images */,
+				833F63F1290479AD00463E4E /* manifest.json */,
+				833F63F3290479AD00463E4E /* background.js */,
+				833F63F5290479AD00463E4E /* content.js */,
+				833F63F7290479AD00463E4E /* popup.html */,
+				833F63F9290479AD00463E4E /* popup.css */,
+				833F63FB290479AD00463E4E /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833F63B2290479A800463E4E /* PiPiFy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833F6405290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFy" */;
+			buildPhases = (
+				833F63AF290479A800463E4E /* Sources */,
+				833F63B0290479A800463E4E /* Frameworks */,
+				833F63B1290479A800463E4E /* Resources */,
+				833F6404290479AD00463E4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833F63E8290479AD00463E4E /* PBXTargetDependency */,
+			);
+			name = PiPiFy;
+			productName = PiPiFy;
+			productReference = 833F63B3290479A800463E4E /* PiPiFy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833F63CE290479AD00463E4E /* PiPiFyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833F6408290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFyTests" */;
+			buildPhases = (
+				833F63CB290479AD00463E4E /* Sources */,
+				833F63CC290479AD00463E4E /* Frameworks */,
+				833F63CD290479AD00463E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833F63D1290479AD00463E4E /* PBXTargetDependency */,
+			);
+			name = PiPiFyTests;
+			productName = PiPiFyTests;
+			productReference = 833F63CF290479AD00463E4E /* PiPiFyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		833F63D8290479AD00463E4E /* PiPiFyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833F640B290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFyUITests" */;
+			buildPhases = (
+				833F63D5290479AD00463E4E /* Sources */,
+				833F63D6290479AD00463E4E /* Frameworks */,
+				833F63D7290479AD00463E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833F63DB290479AD00463E4E /* PBXTargetDependency */,
+			);
+			name = PiPiFyUITests;
+			productName = PiPiFyUITests;
+			productReference = 833F63D9290479AD00463E4E /* PiPiFyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		833F63E4290479AD00463E4E /* PiPiFy Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833F6401290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFy Extension" */;
+			buildPhases = (
+				833F63E1290479AD00463E4E /* Sources */,
+				833F63E2290479AD00463E4E /* Frameworks */,
+				833F63E3290479AD00463E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PiPiFy Extension";
+			productName = "PiPiFy Extension";
+			productReference = 833F63E5290479AD00463E4E /* PiPiFy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833F63AB290479A800463E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					833F63B2290479A800463E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					833F63CE290479AD00463E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 833F63B2290479A800463E4E;
+					};
+					833F63D8290479AD00463E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 833F63B2290479A800463E4E;
+					};
+					833F63E4290479AD00463E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 833F63AE290479A800463E4E /* Build configuration list for PBXProject "PiPiFy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 833F63AA290479A800463E4E;
+			productRefGroup = 833F63B4290479A800463E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833F63B2290479A800463E4E /* PiPiFy */,
+				833F63CE290479AD00463E4E /* PiPiFyTests */,
+				833F63D8290479AD00463E4E /* PiPiFyUITests */,
+				833F63E4290479AD00463E4E /* PiPiFy Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833F63B1290479A800463E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63BD290479A800463E4E /* Icon.png in Resources */,
+				833F63C6290479A800463E4E /* Main.storyboard in Resources */,
+				833F63C1290479A800463E4E /* Script.js in Resources */,
+				833F63BB290479A800463E4E /* Main.html in Resources */,
+				833F63C8290479AD00463E4E /* Assets.xcassets in Resources */,
+				833F63BF290479A800463E4E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63CD290479AD00463E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63D7290479AD00463E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63E3290479AD00463E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63F4290479AD00463E4E /* background.js in Resources */,
+				833F63FA290479AD00463E4E /* popup.css in Resources */,
+				833F63F8290479AD00463E4E /* popup.html in Resources */,
+				833F63F0290479AD00463E4E /* images in Resources */,
+				833F63F2290479AD00463E4E /* manifest.json in Resources */,
+				833F63EE290479AD00463E4E /* _locales in Resources */,
+				833F63F6290479AD00463E4E /* content.js in Resources */,
+				833F63FC290479AD00463E4E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833F63AF290479A800463E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63C3290479A800463E4E /* ViewController.swift in Sources */,
+				833F63B7290479A800463E4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63CB290479AD00463E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63D4290479AD00463E4E /* PiPiFyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63D5290479AD00463E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63DE290479AD00463E4E /* PiPiFyUITests.swift in Sources */,
+				833F63E0290479AD00463E4E /* PiPiFyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833F63E1290479AD00463E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F63EB290479AD00463E4E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833F63D1290479AD00463E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833F63B2290479A800463E4E /* PiPiFy */;
+			targetProxy = 833F63D0290479AD00463E4E /* PBXContainerItemProxy */;
+		};
+		833F63DB290479AD00463E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833F63B2290479A800463E4E /* PiPiFy */;
+			targetProxy = 833F63DA290479AD00463E4E /* PBXContainerItemProxy */;
+		};
+		833F63E8290479AD00463E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833F63E4290479AD00463E4E /* PiPiFy Extension */;
+			targetProxy = 833F63E7290479AD00463E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833F63B9290479A800463E4E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833F63BA290479A800463E4E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		833F63C4290479A800463E4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833F63C5290479A800463E4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833F63FF290479AD00463E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		833F6400290479AD00463E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		833F6402290479AD00463E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PiPiFy Extension/PiPiFy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PiPiFy Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PiPiFy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFy.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		833F6403290479AD00463E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PiPiFy Extension/PiPiFy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PiPiFy Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PiPiFy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFy.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		833F6406290479AD00463E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PiPiFy/PiPiFy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PiPiFy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		833F6407290479AD00463E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PiPiFy/PiPiFy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PiPiFy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		833F6409290479AD00463E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPiFy.app/Contents/MacOS/PiPiFy";
+			};
+			name = Debug;
+		};
+		833F640A290479AD00463E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPiFy.app/Contents/MacOS/PiPiFy";
+			};
+			name = Release;
+		};
+		833F640C290479AD00463E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PiPiFy;
+			};
+			name = Debug;
+		};
+		833F640D290479AD00463E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4272MMGQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eivindarvesen.PiPiFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PiPiFy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833F63AE290479A800463E4E /* Build configuration list for PBXProject "PiPiFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F63FF290479AD00463E4E /* Debug */,
+				833F6400290479AD00463E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833F6401290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFy Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F6402290479AD00463E4E /* Debug */,
+				833F6403290479AD00463E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833F6405290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F6406290479AD00463E4E /* Debug */,
+				833F6407290479AD00463E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833F6408290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F6409290479AD00463E4E /* Debug */,
+				833F640A290479AD00463E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833F640B290479AD00463E4E /* Build configuration list for PBXNativeTarget "PiPiFyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F640C290479AD00463E4E /* Debug */,
+				833F640D290479AD00463E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833F63AB290479A800463E4E /* Project object */;
+}
